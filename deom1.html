@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>赋值运算</title>
+  <script type="text/javascript">
+    function calculate(){
+      var i = parseInt(document.getElementById("num1").value)
+      var j = parseInt(document.getElementById("num2").value)
+      var s = i + j;
+      document.getElementById("sum").innerText = s ;
+    }
+  </script>
+</head>
+<body>
+var i=<input type="text" id="num1">,j=<input type="text" id="num2">结果 <span id="sum" style="color: red;"></span>
+<button onclick="calculate()">计算</button>
+</body>
+</html>
